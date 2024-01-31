@@ -10,7 +10,7 @@ test('Radio buttons', async ({page})=>{
    await expect(await page.locator("//input[@value='option2']")).isChecked().toBeTruthy();
 
    await expect(await page.locator("//input[@value='option1']")).isChecked().toBeFalsy();
-    await page.waitForTimeout(5000);
+    await page.waitForTimeout(4000);
 
 
 

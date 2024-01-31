@@ -24,7 +24,7 @@ test('Handle dropdowns', async({page})=>{
     await expect(content.includes('Orange')).toBeFalsy();
 
 
-    await page.waitForTimeout(5000);
+    await page.waitForTimeout(4000);
 
 
 
