@@ -11,6 +11,6 @@ test('Frames', async({page})=> {
     const childFrames = await frame3.childFrames()
     await childFrames[0].locator('//*[@id="i8"]/div[3]/div').check();
 
-    await page.waitForTimeout(5000);
+    await page.waitForTimeout(4000);
 
 });
