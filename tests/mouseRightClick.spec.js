@@ -11,7 +11,7 @@ test('Mouse Hover', async({page})=> {
 
 
     
-    await page.waitForTimeout(3000);
+    await page.waitForTimeout(4000);
 
 })
 

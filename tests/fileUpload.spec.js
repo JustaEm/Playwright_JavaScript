@@ -40,6 +40,6 @@ test.only('Upload multiple files', async ({ page }) => {
 
     expect(await page.locator('#fileList li')).toHaveText('No Files Selected');
 
-    await page.waitForTimeout(3000);
+    await page.waitForTimeout(4000);
 
 });

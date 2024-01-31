@@ -10,7 +10,7 @@ test('Mouse Hover', async({page})=> {
     await desktops.hover()
     await mac.hover()
 
-    await page.waitForTimeout(3000);
+    await page.waitForTimeout(4000);
 
 })
 

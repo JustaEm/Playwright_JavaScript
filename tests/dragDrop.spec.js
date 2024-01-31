@@ -17,7 +17,7 @@ test('Drag & Drop', async({page})=> {
     //Approach 2
     await drag.dragTo(drop);
     
-    await page.waitForTimeout(5000);
+    await page.waitForTimeout(4000);
 
 })
 

@@ -17,7 +17,7 @@ test('POM test', async ({ page }) => {
 
     const home = new HomePage(page);
     await home.addProductToCart('Nexus 6');
-    await page.waitForTimeout(3000);
+    await page.waitForTimeout(4000);
     await home.gotoCart();
 
     //Cart class

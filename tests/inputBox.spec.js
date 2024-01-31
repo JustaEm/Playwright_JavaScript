@@ -13,7 +13,7 @@ test('Input box', async ({page})=>{
     await page.locator("//input[@id='name']").fill("John")
     //page.fill("//input[@id='name]", 'John');
 
-    await page.waitForTimeout(5000);
+    await page.waitForTimeout(4000);
 
 
 

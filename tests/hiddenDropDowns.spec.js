@@ -16,7 +16,7 @@ test('Using debugger for capturing locators', async({page})=> {
     await page.locator("//body[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]/form[1]/div[1]/div[1]/div[6]/div[1]/div[2]/div[1]/div[1]/div[2]/i[1]")
 
     //Waiting for options on debugger
-    await page.waitForTimeout(5000);
+    await page.waitForTimeout(4000);
 
     const options = await page.$$("//div[@role='listbox']//span")
 

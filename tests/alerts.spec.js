@@ -13,7 +13,7 @@ test.skip('Alerts', async({page})=> {
     })
 
     await page.click("button[onclick='myFunctionAlert()']");
-    await page.waitForTimeout(5000);
+    await page.waitForTimeout(4000);
     
 })
 

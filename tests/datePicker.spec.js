@@ -44,7 +44,7 @@ test('Dates', async({page})=> {
 
     await page.click(`//a[@class='ui-state-default'] [text()='${date}']`)
 
-    await page.waitForTimeout(3000);
+    await page.waitForTimeout(4000);
 
 
 });

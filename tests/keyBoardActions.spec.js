@@ -17,7 +17,7 @@ test('Keyboard actions', async({page})=> {
     //Ctrl + v --> paste text
     await page.keyboard.press('Control+V');
 
-    await page.waitForTimeout(5000);
+    await page.waitForTimeout(4000);
 
 
 

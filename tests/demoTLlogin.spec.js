@@ -13,6 +13,6 @@ test('test', async ({ page }) => {
   
   await page.getByRole('button', { name: 'Log In' }).click();
   await page.getByLabel('Open menu').click();
-  await page.waitForTimeout(5000);
+  await page.waitForTimeout(4000);
   await page.getByRole('button', { name: 'Log Out' }).click();
 });
